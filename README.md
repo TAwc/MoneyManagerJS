@@ -3,6 +3,6 @@
 ## a simple web app using electron and react to help me manage my finances
 
 ### to run :
-'''bash 
+```bash 
 $ npm run start
-'''
+```
