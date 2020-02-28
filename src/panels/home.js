@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './home.module.css'
-
+import React, { Component } from 'react';
+import styles from './home.module.css';
+import transactionlog from '../components/transationslog.js';
 
 //calls comopents from other files to load into html
 //.css with a .module tag are module based styling meaning they dont follow from page to page
