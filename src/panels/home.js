@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from './home.module.css';
-import transactionlog from '../components/transationslog.js';
+import TransactionLog from '../components/transactionslog.js';
 
 //calls comopents from other files to load into html
 //.css with a .module tag are module based styling meaning they dont follow from page to page
@@ -10,7 +10,7 @@ const Home = () => (
     <>
     <div className={styles.grid_container}>
         <div className={styles.left}>
-            
+            <TransactionLog></TransactionLog>
         </div>
         
         <div className={styles.middle}>

@@ -3,6 +3,8 @@ import PanelViewer from './PanelViewer';
 
 //importing all pages
 import Home from '../panels/home.js';
+import SBD from '../panels/SBD.js';
+
 
 import './Panel.css'
 
@@ -17,11 +19,11 @@ function Panel() {
         <div className="header">
           <h1>PlayDogPlay</h1>
         </div>
-        
-        
+
+
+        <SBD/>
+                
         <PanelViewer panels={panels}/>
-        
-      
       
       </>
     );
